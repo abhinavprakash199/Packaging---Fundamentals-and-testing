@@ -157,7 +157,7 @@ The comprehensive supply chain involved in the production of integrated circuits
 - Product Assembly and Test: Final electronic products are assembled using various components and tools, followed by rigorous testing.
 
 ![image](https://github.com/user-attachments/assets/0083890e-c2e2-47ed-8049-7019a91f2444)
-
+ - [VIDEO](https://www.youtube.com/watch?v=hR5orrmpoeE)
 ### Wafer Preparation Grinding and Dicing
 ---
 
@@ -241,5 +241,27 @@ ANSYS Electronics Desktop (AEDT) is an integrated multi-physics simulation platf
 
 ## Module 5:
 ## Package Design and Modeling: Building a Semiconductor Package from Scratch
-
 ---
+
+
+## Appendix
+---
+
+  
+## References
+---
+- [Amkor Manufacturing](https://www.youtube.com/watch?v=hR5orrmpoeE)
+- [Ansys Electronics Desktop Student](https://www.ansys.com/en-in/academic/students/ansys-electronics-desktop-student)
+
+
+
+## Acknowledgement
+---
+Finally, I would like to express my sincere gratitude to [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/){Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.} and  for help me in understanding the Packaging - Fundamentals-and-testing. The workshop was excellent and well-designed, this workshop taught about Packaging Design and Techniques 
+
+## Accreditation
+---
+- To be added.....!
+## Inquiries
+---
+- Connect with me at [LinkedIn](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
