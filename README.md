@@ -15,8 +15,11 @@ This repository contains the whole summary of the hands-on work done by Abhinav 
    
     
 * [Module 2: From Silicon Wafer to Complete Package – Assembly and Fabrication Processes](#Module-2)
-    + [](#)
-    + [](#)
+    + [Overview of Supply Chain and Assembly Facilities](#Overview-of-Supply-Chain-and-Assembly-Facilities)
+    + [Wafer Preparation Grinding and Dicing](#Wafer-Preparation-Grinding-and-Dicing)
+    + [Wire Bond Assembly Die to Molding Process](#Wire-Bond-Assembly-Die-to-Molding-Process)
+    + [Flip Chip Technology Face-Down Die Integration](#Flip-Chip-Technology-Face-Down-Die-Integration)
+    + [Wafer-Level Packaging (WLP)](#Wafer-Level-Packaging-(WLP))
    
  
 * [Module 3: Thermal Simulations of Semiconductor Packages Using ANSYS](#Module-3)
@@ -125,14 +128,11 @@ Semiconductor packaging is categorized into Leadframe, Laminate, and Advanced pa
 
 ![Screenshot 2025-06-09 130101](https://github.com/user-attachments/assets/dd1fb42d-21e6-4ffb-a891-988a208f2425)
 
-
 ### Nomenclature of Packaging 
 ---
 Below Diagrams showing how chips are integrated with package substrates and PCBs. Illustrations of packaging types like COB, PBGA, FC CSP, 2D, 2.1D, 2.5D, and 3D. Cross-sectional views and 3D models of semiconductor components.
 
 ![Screenshot 2025-06-09 130459](https://github.com/user-attachments/assets/903a2887-64b2-426d-a558-f5ebdf750aa8)
-
-    
 
 ### Comparative Packaging Evaluation
 ---
@@ -158,7 +158,7 @@ The comprehensive supply chain involved in the production of integrated circuits
 
 ![image](https://github.com/user-attachments/assets/0083890e-c2e2-47ed-8049-7019a91f2444)
 
-### Wafer Preparation – Grinding and Dicing
+### Wafer Preparation Grinding and Dicing
 ---
 
 Wafer Preparation Steps are done in controlled cleanroom environment where the wafer processing begins. ISO Class 7 ensures minimal particle contamination, whcih invilve this steps
@@ -172,7 +172,7 @@ Wafer Preparation Steps are done in controlled cleanroom environment where the w
   
 ![image](https://github.com/user-attachments/assets/24f8798a-cea1-4fe1-9526-d36e3fc6cb6a)
 
-### Wire Bond Assembly – Die to Molding Process
+### Wire Bond Assembly Die to Molding Process
 ---
 - Die Attach : Epoxy is dispensed, the chip is picked and placed on Die Attach Film (DAF).
 - Curing : Heat is applied to cure the epoxy and secure the die.
@@ -182,7 +182,7 @@ Wafer Preparation Steps are done in controlled cleanroom environment where the w
 
 ![image](https://github.com/user-attachments/assets/1363a2ac-4194-44ba-9a73-4a9cd7ee52fb)
 
-### Flip Chip Technology – Face-Down Die Integration
+### Flip Chip Technology Face-Down Die Integration
 ---
 
 - Bump Formation – Solder bumps are formed on the silicon chip.
@@ -212,6 +212,8 @@ Wafer Preparation Steps are done in controlled cleanroom environment where the w
 - Multiple rounds of RDL patterning are performed.
 #### Final Steps
 - Laser marking and singulation complete the Fan-out WLP.
+
+  
 ![image](https://github.com/user-attachments/assets/c2332ca8-ad66-4cba-936a-efbc345bc563)
 
 ## Module 3:
