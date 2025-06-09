@@ -45,8 +45,9 @@ This repository contains the whole summary of the hands-on work done by Abhinav 
 
 #### Why do we need Packging  
 <p align="center">
-    <img src="![image](https://github.com/user-attachments/assets/797e8483-1067-400f-9fb3-04988d265c6c)"
-
+    <img src="https://github.com/user-attachments/assets/797e8483-1067-400f-9fb3-04988d265c6c)"
+    
+![image](https://github.com/user-attachments/assets/797e8483-1067-400f-9fb3-04988d265c6c)
 
 
 
