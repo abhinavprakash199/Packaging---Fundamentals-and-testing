@@ -131,6 +131,7 @@ Semiconductor packaging is categorized into Leadframe, Laminate, and Advanced pa
 ### Nomenclature of Packaging 
 ---
 Below Diagrams showing how chips are integrated with package substrates and PCBs. Illustrations of packaging types like COB, PBGA, FC CSP, 2D, 2.1D, 2.5D, and 3D. Cross-sectional views and 3D models of semiconductor components.
+
 ![Screenshot 2025-06-09 130459](https://github.com/user-attachments/assets/903a2887-64b2-426d-a558-f5ebdf750aa8)
 
     
