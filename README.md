@@ -50,10 +50,7 @@ Semiconductor packaging is essential for transitioning delicate silicon dies fro
 - Protection from corrosion, moisture, and physical damage.
 - Connectivity to other components through structures like Ball Grid Arrays (BGA).
 This process enables integration into complex systems, such as the iPhone 15 logic board, which includes chips from companies like Broadcom, SK Hynix, and Texas Instruments
-
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/797e8483-1067-400f-9fb3-04988d265c6c)"
-    
+  
 ![image](https://github.com/user-attachments/assets/797e8483-1067-400f-9fb3-04988d265c6c)
 
 #### Product Requirement 
@@ -69,9 +66,7 @@ Below hierarchical structure of electronic integration—from chip to package to
   
 These considerations ensure optimal performance, efficiency, and integration in electronic system
 
-<p align="center">
-    <img src=https://github.com/user-attachments/assets/e02e9490-a8e3-472f-8c23-61eb77b51ea7"
-
+![Screenshot 2025-06-09 124959](https://github.com/user-attachments/assets/3e7a726a-800f-4929-b6ca-e75f8c3c109e)
 
 ### Package Structure
 This diagram illustrates the typical structure of an electronic package, which serves as a bridge between the silicon die and the system board (PCB). Key components include:
@@ -83,8 +78,7 @@ This diagram illustrates the typical structure of an electronic package, which s
 - Carrier-to-board interconnections: Link the package to the system board.
 - System Board (PCB): The final platform where the package is mounted and integrated into the device.
 
-<p align="center">
-    <img src=https://github.com/user-attachments/assets/85dd5b62-0b1c-4f1d-bb7c-79aee7231802"
+![Screenshot 2025-06-09 125253](https://github.com/user-attachments/assets/6fc9100a-08d4-4d8e-846c-8813e711b2b0)
 
 ### Types of Package 
 Electronic component packaging is essential for protecting semiconductor devices and enabling their integration into systems. Packaging types are broadly classified into Through-Hole Mounting and Surface Mount Technology (SMT). Each type offers unique benefits in terms of size, performance, and application.
@@ -103,8 +97,7 @@ Electronic component packaging is essential for protecting semiconductor devices
 - MCM (Multi-Chip Module): Multiple chips integrated into one module for higher functionality.
 - CoWoS (Chip-on-Wafer-on-Substrate): Advanced 2.5D packaging integrating chips on a silicon interposer.
 
-<p align="center">
-    <img src=https://github.com/user-attachments/assets/be01a02d-c525-4ec2-bad0-32ce865d27e3"
+![Screenshot 2025-06-09 125548](https://github.com/user-attachments/assets/1eaef90a-c68a-43a7-89f7-7da3706b0b55)
 
 ### Anatomy of Packaging
 
@@ -127,21 +120,20 @@ Semiconductor packaging is categorized into Leadframe, Laminate, and Advanced pa
 - 2.3D FCBGA with Si Interposer: Uses a silicon interposer to connect multiple dies efficiently.
 - 2.5D CoWoS: Integrates SoC and HBM on a silicon interposer for high bandwidth and performance.
 
-<p align="center">
-    <img src=https://github.com/user-attachments/assets/f6439400-9957-4f25-9b11-000c3b0457e9"
+![Screenshot 2025-06-09 130101](https://github.com/user-attachments/assets/dd1fb42d-21e6-4ffb-a891-988a208f2425)
+
 
 ### Nomenclature od Packaging 
 Below Diagrams showing how chips are integrated with package substrates and PCBs. Illustrations of packaging types like COB, PBGA, FC CSP, 2D, 2.1D, 2.5D, and 3D. Cross-sectional views and 3D models of semiconductor components.
-<p align="center">
-    <img src=https://github.com/user-attachments/assets/590d9bea-169b-498f-830d-713af86226af"
+![Screenshot 2025-06-09 130459](https://github.com/user-attachments/assets/903a2887-64b2-426d-a558-f5ebdf750aa8)
+
     
 
 ### Comparative Packaging Evaluation
 This section aids in evaluating package types based on key factors such as, Performance, Cost, Space limitations, Thermal performance and Reliability.
 Selecting the most suitable package requires balancing these factors according to the specific needs of the application, system design, and business objectives.
 
-<p align="center">
-    <img src=https://github.com/user-attachments/assets/7693e9cd-2729-4414-9d4c-68c4be1b01d3"
+![Screenshot 2025-06-09 130851](https://github.com/user-attachments/assets/f32640a7-aa3e-4549-9225-8fb8fd4a5c2b)
 
 
 
