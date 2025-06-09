@@ -23,8 +23,8 @@ This repository contains the whole summary of the hands-on work done by Abhinav 
    
  
 * [Module 3: Thermal Simulations of Semiconductor Packages Using ANSYS](#Module-3)
-    + [](#)
-    + [](#)
+    + [Introduction With ANSYS Electronics Desktop](#Introduction-With-ANSYS-Electronics-Desktop)
+    + [Designing Flip-Chip BGA Package](#Designing-Flip-Chip-BGA-Package)
   
           
 * [Module 4: Ensuring Package Reliability – Testing and Performance Evaluation](#Module-4)
@@ -219,6 +219,21 @@ Wafer Preparation Steps are done in controlled cleanroom environment where the w
 ## Module 3:
 ## Thermal Simulations of Semiconductor Packages Using ANSYS
 ---
+### Introduction With ANSYS Electronics Desktop
+---
+ANSYS Electronics Desktop (AEDT) is an integrated multi-physics simulation platform that combines tools for electromagnetic, signal integrity, thermal, and electro-mechanical analysis. It is extensively used for the design and evaluation of high-speed electronic circuits and systems.
+### Designing Flip-Chip BGA Package
+---
+#### Step 1  
+- Open AEDT and launch Icepak
+
+#### Step 2 
+- Create a Flipchip BGA Package
+``` Icepak -> Toolkit -> Geometry -> Packages -> Flipchip_BGA ```
+
+#### Step 3
+
+#### Step 4
 
 ## Module 4:
 ## Ensuring Package Reliability – Testing and Performance Evaluation
