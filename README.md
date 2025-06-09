@@ -44,7 +44,7 @@ This repository contains the whole summary of the hands-on work done by Abhinav 
 ---
 
 
-#### Why do we need Packging  
+#### Why do we need Packaging  
 Semiconductor packaging is essential for transitioning delicate silicon dies from the controlled environment of a foundry to the harsh conditions of the real world. Initially, bare dies from manufacturers like TSMC or Intel are highly vulnerable. Packaging provides:
 
 - Protection from corrosion, moisture, and physical damage.
