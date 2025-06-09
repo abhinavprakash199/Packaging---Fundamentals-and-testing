@@ -1,10 +1,8 @@
 # Packaging---Fundamentals-and-testing
 
-This repository contains the whole summary of the hands-on work done by Abhinav Prakash during the workshop on Packaging Fundamentals and testing, understanding diffrentent techniques of Packaging and using Ansys tool to design and anlsis Packaging
+This repository contains the whole summary of the hands-on work done by Abhinav Prakash during the workshop on Packaging Fundamentals and testing. The workshop offered an in-depth exploration of the semiconductor packaging process, covering essential principles, the progression of packaging technologies, and cutting-edge 2.5D/3D architectures. It delved into interconnect methods, redistribution layers (RDLs), interposers, assembly techniques, and package reliability assessments. Participants also gained practical experience through hands-on sessions involving thermal simulations, package design, and modeling using ANSYS tools.
 
 ## *Table of Contents*
-
-
 
 * [Module 1: Evolution of Semiconductor Packaging – From Fundamentals to Advanced Integration](#Module-1)
     + [Why do we need Packaging](#Why-do-we-need-Packaging)
@@ -148,6 +146,73 @@ Selecting the most suitable package requires balancing these factors according t
 ## Module 2:
 ## From Silicon Wafer to Complete Package – Assembly and Fabrication Processes
 ---
+### Overview of Supply Chain and Assembly Facilities
+---
+The comprehensive supply chain involved in the production of integrated circuits (ICs), broken down into five key stages:
+
+- Design House: This initial phase involves IC design using EDA tools and foundry PDKs, resulting in a GDSII layout and test programs.
+- Wafer Fabrication: Silicon wafers are processed using specialized equipment, gases, chemicals, and materials to fabricate ICs.
+- Package Assembly and Test: Individual ICs are packaged using substrates, tools, and materials, then tested for functionality.
+- Board Assembly and Test: Packaged ICs are mounted on PCBs and tested as part of a larger circuit.
+- Product Assembly and Test: Final electronic products are assembled using various components and tools, followed by rigorous testing.
+
+![image](https://github.com/user-attachments/assets/0083890e-c2e2-47ed-8049-7019a91f2444)
+
+### Wafer Preparation – Grinding and Dicing
+---
+
+Wafer Preparation Steps are done in controlled cleanroom environment where the wafer processing begins. ISO Class 7 ensures minimal particle contamination, whcih invilve this steps
+- Wafer Preparation Area – Cleanroom (ISO Class 7) for contamination-free processing.
+- Incoming Wafer Carrier – Wafers arrive in protective carriers.
+- Wafer Inspection – Visual/optical check for defects.
+- Front Tape Lamination – Protective tape applied to wafer front.
+- Backside Grinding – Wafer thinned using grinding tools.
+- Tape Frame Mounting – Wafer mounted on tape frame for stability.
+- Two-Step Dicing – Laser grooving followed by blade cutting to separate chips.
+  
+![image](https://github.com/user-attachments/assets/24f8798a-cea1-4fe1-9526-d36e3fc6cb6a)
+
+### Wire Bond Assembly – Die to Molding Process
+---
+- Die Attach : Epoxy is dispensed, the chip is picked and placed on Die Attach Film (DAF).
+- Curing : Heat is applied to cure the epoxy and secure the die.
+- Wire Bonding : Involves wire clamping, capillary tapping, EFO spark generation, ball and tail bond formation using ultrasound and heat, and wire loop creation.
+- Molding (Transfer) : Resin is transferred into a mold to encapsulate the die and wires.
+- Marking (Laser) : Laser marks identification or traceability info on the molded package.
+
+![image](https://github.com/user-attachments/assets/1363a2ac-4194-44ba-9a73-4a9cd7ee52fb)
+
+### Flip Chip Technology – Face-Down Die Integration
+---
+
+- Bump Formation – Solder bumps are formed on the silicon chip.
+- Solder Reflow – Bumps are melted and solidified.
+- Chip Flipping – Chip is flipped face-down.
+- Flux Dispensing – Flux is applied to the substrate.
+- Chip Placement – Flipped chip is placed on the substrate.
+- Solder Reflow – Electrical connections are formed.
+- Flux Cleansing – Residual flux is cleaned.
+- Underfill Dispensing – Underfill is applied around the chip.
+- Underfill Curing – Underfill is cured with heat.
+- Ball Mounting & Reflow – Solder balls are added and reflowed.
+- Molding & Marking – Final encapsulation and laser marking.
+
+![image](https://github.com/user-attachments/assets/c66467a8-9f9e-4300-8bd7-0b424f5aa12c)
+
+### Wafer-Level Packaging (WLP)
+---
+#### Reconstitution Process
+- Diced dies are picked and placed on a temporary carrier.
+- Dies are molded to form a reconstituted wafer.
+- Carrier is released.
+#### Solder Ball Attach
+- Solder balls are attached to the reconstituted wafer.
+#### RDL (Redistribution Layer) Preparation
+- Dielectric and metal layers are coated.
+- Multiple rounds of RDL patterning are performed.
+#### Final Steps
+- Laser marking and singulation complete the Fan-out WLP.
+![image](https://github.com/user-attachments/assets/c2332ca8-ad66-4cba-936a-efbc345bc563)
 
 ## Module 3:
 ## Thermal Simulations of Semiconductor Packages Using ANSYS
