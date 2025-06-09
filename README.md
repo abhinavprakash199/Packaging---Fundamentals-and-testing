@@ -1,13 +1,13 @@
 # Packaging---Fundamentals-and-testing
 
-This repository contains the whole summary of the hands-on work done by Abhinav Prakash (IS22MTECH14002) during the workshop on RISC-V-based MYTH, understanding and coding the piplened RISC-V micro-architecture using TL-Verilog. Understand in detail about machine code, the different ISA of RISC-V, the Instruction Fretch to Write Back process, and coding the optimized architecture. of RICS-V.
+This repository contains the whole summary of the hands-on work done by Abhinav Prakash during the workshop on Packaging Fundamentals and testing, understanding diffrentent techniques of Packaging and using Ansys tool to design and anlsis Packaging
 
 ## *Table of Contents*
 
 
 
 * [Module 1: Evolution of Semiconductor Packaging – From Fundamentals to Advanced Integration](#Module-1)
-    + [Introduction to Packaging and Industry Landscape](#Introduction-to-Packaging-and-Industry-Landscape)
+    + [Introduction to Packaging](#Introduction-to-Packaging)
    
     
 * [Module 2: From Silicon Wafer to Complete Package – Assembly and Fabrication Processes](#Module-2)
@@ -40,10 +40,29 @@ This repository contains the whole summary of the hands-on work done by Abhinav 
 ## Module 1:
 ## Evolution of Semiconductor Packaging – From Fundamentals to Advanced Integration
 ---
-### sub hed
+### Introduction to Packaging
 ---
 
+#### Why do we need Packging  
+<p align="center">
+    <img src="![image](https://github.com/user-attachments/assets/797e8483-1067-400f-9fb3-04988d265c6c)"
 
-## Module 1:
+
+
+
+## Module 2:
 ## From Silicon Wafer to Complete Package – Assembly and Fabrication Processes
+---
+
+## Module 3:
+## Thermal Simulations of Semiconductor Packages Using ANSYS
+---
+
+## Module 4:
+## Ensuring Package Reliability – Testing and Performance Evaluation
+---
+
+## Module 5:
+## Package Design and Modeling: Building a Semiconductor Package from Scratch
+
 ---
