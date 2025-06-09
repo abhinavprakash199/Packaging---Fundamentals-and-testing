@@ -264,4 +264,4 @@ Finally, I would like to express my sincere gratitude to [Kunal Ghosh](https://w
 - To be added.....!
 ## Inquiries
 ---
-- Connect with me at [LinkedIn](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
+- Connect with me at [LinkedIn](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile)
