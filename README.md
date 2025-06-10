@@ -240,6 +240,7 @@ ANSYS Electronics Desktop (AEDT) is an integrated multi-physics simulation platf
 
 ![image](https://github.com/user-attachments/assets/68c14be7-3f09-4c14-be01-a567b7acbf61)
 
+![image](https://github.com/user-attachments/assets/51a007f0-0b4f-4127-8c0d-37ad85f1d874)
 
 #### Step 3
 
