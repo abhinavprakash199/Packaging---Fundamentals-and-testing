@@ -231,6 +231,15 @@ ANSYS Electronics Desktop (AEDT) is an integrated multi-physics simulation platf
 - Create a Flipchip BGA Package
 ``` Icepak -> Toolkit -> Geometry -> Packages -> Flipchip_BGA ```
 
+
+![image](https://github.com/user-attachments/assets/92cfbbcb-4272-4850-a124-427a535a2fac)
+![image](https://github.com/user-attachments/assets/19bb47e4-fb11-44a8-adbd-4d63bb9b870a)
+![image](https://github.com/user-attachments/assets/1e95b7bc-92e5-4fb5-a878-eb89524fbf78)
+![image](https://github.com/user-attachments/assets/44088469-7f89-48d9-8c01-441120892759)
+
+
+
+
 #### Step 3
 
 #### Step 4
