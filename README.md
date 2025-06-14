@@ -227,16 +227,75 @@ ANSYS Electronics Desktop (AEDT) is an integrated multi-physics simulation platf
 #### Step 1  
 - Open AEDT and launch Icepak
 
+
+
+- **NOTE** If Icepak is not visible then go to ```Tool -> Options -> General Options``` and change the Set Target Configurations to All
+![image](https://github.com/user-attachments/assets/7249ad28-0a23-4b02-a79a-f9ad053f82b7)
 #### Step 2 
 - Create a Flipchip BGA Package
 ``` Icepak -> Toolkit -> Geometry -> Packages -> Flipchip_BGA ```
-
-
 ![image](https://github.com/user-attachments/assets/92cfbbcb-4272-4850-a124-427a535a2fac)
 ![image](https://github.com/user-attachments/assets/19bb47e4-fb11-44a8-adbd-4d63bb9b870a)
 ![image](https://github.com/user-attachments/assets/1e95b7bc-92e5-4fb5-a878-eb89524fbf78)
 ![image](https://github.com/user-attachments/assets/44088469-7f89-48d9-8c01-441120892759)
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>4x4 Image Grid</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      gap: 10px;
+      width: 80%;
+      margin: 50px auto;
+    }
+
+    .grid-item {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      background-color: #f0f0f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item"><img src="https://github.com/user-attachments/assets/92cfbbcb-4272-4850-a124-427a535a2fac" alt="Image 1"></div>
+    <div class="grid-item"><img src="https://github.com/user-attachments/assets/19bb47e4-fb11-44a8-adbd-4d63bb9b870a" alt="Image 2"></div>
+    <div class="grid-item"><img src="https://github.com/user-attachments/assets/1e95b7bc-92e5-4fb5-a878-eb89524fbf78" alt="Image 3"></div>
+    <div class="grid-item"><img src="https://github.com/user-attachments/assets/44088469-7f89-48d9-8c01-441120892759" alt="Image 4"></div>
+
+    <!-- Empty cells to complete 4x4 -->
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+  </div>
+</body>
+</html>
 
 ![image](https://github.com/user-attachments/assets/68c14be7-3f09-4c14-be01-a567b7acbf61)
 
