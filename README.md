@@ -254,8 +254,24 @@ Once all settings are adjusted, click OK to generate the package model.
 ![Screenshot (3020)](https://github.com/user-attachments/assets/64143e4c-2763-49c4-a58e-4921d2ba33a5)
 
 #### Step 4
+- Add Source Thermal Model for Die
+![Screenshot (3021)](https://github.com/user-attachments/assets/277c9bd0-66de-4dbb-8682-631e2994dd5b)
+#### Step 5
+- Add Source Thermal Model for Substrate
+- In the sub-window that appears, select Temperature
+- Repeat the same to add thermal monitors for the die and the die-underfill.
+![Screenshot (3022)](https://github.com/user-attachments/assets/0534aad3-5309-42da-a4df-50b60c4b561a)
 
+#### Step 6 
+- Meshing And Running The Thermal Analysis
+![Screenshot (3024)](https://github.com/user-attachments/assets/490e31e4-28b0-4481-9d37-cf8a4511790c)
+- Navigate to the Simulation tab and click on Generate Mesh.
+- If prompted, save the project and wait for the mesh generation to complete.
+- Make note of any errors or warnings that appear, and either ignore them if appropriate or take the necessary steps to debug and resolve the issues.
 
+#### Step 7
+- Review Mesh Quality metrics
+- 
 ## Module 4:
 ## Ensuring Package Reliability – Testing and Performance Evaluation
 ---
