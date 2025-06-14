@@ -411,20 +411,6 @@ Below table shows the detail about the design
 
 
 
-
-
-
-
-
-
-
-
-
-
-## Appendix
----
-
-  
 ## References
 ---
 - [Amkor Manufacturing](https://www.youtube.com/watch?v=hR5orrmpoeE)
@@ -434,7 +420,7 @@ Below table shows the detail about the design
 
 ## Acknowledgement
 ---
-Finally, I would like to express my sincere gratitude to [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/){Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.} and  for help me in understanding the Packaging - Fundamentals-and-testing. The workshop was excellent and well-designed, this workshop taught about Packaging Design and Techniques 
+Finally, I would like to express my sincere gratitude to [Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/){Co-founder of VLSI System Design (VSD) Corp. Pvt. Ltd.} and Tarun Kumar Agrawal {Dept. of Electrical Engineering IIT Gandhinagar}   for help me in understanding the Packaging - Fundamentals-and-testing. The workshop was excellent and well-designed, this workshop taught about Packaging Design and Techniques 
 
 ## Accreditation
 ---
