@@ -33,8 +33,8 @@ This repository contains the whole summary of the hands-on work done by Abhinav 
       
     
 * [Module 5: Package Design and Modeling: Building a Semiconductor Package from Scratch](#Module-5)
-    + [](#)
-    + [](#)
+    + [Package Cross-Section Modeling in ANSYS Electronics Desktop (AEDT)](#Package-Cross-Section-Modeling-in-ANSYS-Electronics-Desktop-(AEDT))
+    + [Lab2 Designing QFN](#Lab2-Designing-QFN)
  
 
 * [Appendix](#Appendix)
@@ -325,11 +325,12 @@ Next is the Burn-in stage, where devices are subjected to elevated thermal and v
 ## Module 5:
 ## Package Design and Modeling: Building a Semiconductor Package from Scratch
 ---
-### Introduction to Package Cross-Section Modeling in ANSYS Electronics Desktop (AEDT)
+### Package Cross-Section Modeling in ANSYS Electronics Desktop (AEDT)
 ---
+Here we will primarily focuses on constructing the full cross-section of a wire bond package, incorporating elements such as the die, substrate, bonding wires, and mold compound, without involving any simulations or analyses.
 ![image](https://github.com/user-attachments/assets/c543ce72-77de-44d3-ba4d-55eb4a646677)
 
-
+### Lab2 Designing QFN
 
 ## Appendix
 ---
