@@ -24,12 +24,12 @@ This repository contains the whole summary of the hands-on work done by Abhinav 
  
 * [Module 3: Thermal Simulations of Semiconductor Packages Using ANSYS](#Module-3)
     + [Introduction With ANSYS Electronics Desktop](#Introduction-With-ANSYS-Electronics-Desktop)
-    + [Designing Flip-Chip BGA Package](#Designing-Flip-Chip-BGA-Package)
+    + [Lab1-Designing Flip-Chip BGA Package](#Lab1-Designing-Flip-Chip-BGA-Package)
   
           
 * [Module 4: Ensuring Package Reliability – Testing and Performance Evaluation](#Module-4)
-    + [](#)
-    + [](#)
+    + [Testing at Different Stages](#Testing-at-Different-Stages)
+    + [Package Testing ](#Package-Testing)
       
     
 * [Module 5: Package Design and Modeling: Building a Semiconductor Package from Scratch](#Module-5)
@@ -222,7 +222,7 @@ Wafer Preparation Steps are done in controlled cleanroom environment where the w
 ### Introduction With ANSYS Electronics Desktop
 ---
 ANSYS Electronics Desktop (AEDT) is an integrated multi-physics simulation platform that combines tools for electromagnetic, signal integrity, thermal, and electro-mechanical analysis. It is extensively used for the design and evaluation of high-speed electronic circuits and systems.
-### Designing Flip-Chip BGA Package
+### Lab1 Designing Flip-Chip BGA Package
 ---
 #### Step 1 : Open AEDT and launch Icepak
 
@@ -293,10 +293,42 @@ Once all settings are adjusted, click OK to generate the package model.
 ## Module 4:
 ## Ensuring Package Reliability – Testing and Performance Evaluation
 ---
+This module emphasizes the quality assurance and testing phases of semiconductor packaging, which are crucial for detecting functional defects and ensuring long-term reliability.
+### Testing at Different Stages
+---
+Here is the outlines the end-to-end process of semiconductor packaging and testing, involving both the Foundry and OSAT (Outsourced Semiconductor Assembly and Test) facilities. The journey begins with front-end manufacturing and wafer probe testing at the foundry, followed by wafer sorting to identify functional dies. These steps ensure only high-quality components proceed to packaging.
+
+At the OSAT stage, sorted dies undergo package manufacturing, followed by package testing and system-level tests (SLT) to verify performance under real-world conditions. Throughout the entire process, there is continuous process development and in-depth diagnosis and failure analysis to maintain product quality, improve yield, and ensure long-term reliability.
+
+![image](https://github.com/user-attachments/assets/6cd77fbd-b603-432f-9de9-b2c34225ae2d)
+
+### Package Testing 
+---
+These are the three key stages in the post-assembly semiconductor testing process. The first stage, AOST (Assembly Open and Short Test), checks for electrical continuity issues such as open circuits or shorts caused during the assembly process. It ensures the basic integrity of the package before further testing.
+Next is the Burn-in stage, where devices are subjected to elevated thermal and voltage conditions to simulate early-life operating stress. This helps identify and eliminate weak units. Finally, in the Final Test, devices undergo both cold and hot temperature testing to verify their functional, parametric, and reliability specifications, ensuring they perform correctly under various environmental conditions.
+
+![image](https://github.com/user-attachments/assets/fda776d1-97f4-4137-8f48-e26c1b6ff682)
+
+#### AOST (Assembly Open and Short Test)
+
+![image](https://github.com/user-attachments/assets/df15b6eb-ac56-4110-8cc9-e19033d54183)
+
+#### Burn-in Test
+
+![image](https://github.com/user-attachments/assets/1906d914-2cc7-4763-ba73-fd338b978268)
+
+#### Final Test
+
+![image](https://github.com/user-attachments/assets/e40f5077-688d-46b3-8849-261d10fa4325)
+
 
 ## Module 5:
 ## Package Design and Modeling: Building a Semiconductor Package from Scratch
 ---
+### Introduction to Package Cross-Section Modeling in ANSYS Electronics Desktop (AEDT)
+---
+![image](https://github.com/user-attachments/assets/c543ce72-77de-44d3-ba4d-55eb4a646677)
+
 
 
 ## Appendix
