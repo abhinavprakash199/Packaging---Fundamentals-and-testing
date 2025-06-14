@@ -35,6 +35,7 @@ This repository contains the whole summary of the hands-on work done by Abhinav 
 * [Module 5: Package Design and Modeling: Building a Semiconductor Package from Scratch](#Module-5)
     + [Package Cross-Section Modeling in ANSYS Electronics Desktop (AEDT)](#Package-Cross-Section-Modeling-in-ANSYS-Electronics-Desktop-(AEDT))
     + [Lab2 Designing QFN](#Lab2-Designing-QFN)
+    + [Final QFN Design](#Final-QFN-Design)
  
 
 * [Appendix](#Appendix)
@@ -332,15 +333,93 @@ Here we will primarily focuses on constructing the full cross-section of a wire 
 
 ### Lab2 Designing QFN
 ---
+The primary objective of this lab is to construct a full cross-sectional model of a QFN(Quad Flat No-lead) wire bond package—comprising the die, substrate, bond wires, and mold compound—without conducting any simulations or analyses.
+Below table shows the detail about the design
+
 | Component            | Properties                                                                 |
 |----------------------|----------------------------------------------------------------------------|
-| **1. Die**           | Material: Silicon  <br> Dimensions: 3mm x 3mm  <br> Die Height: 0.2 mm      |
-| **2. Substrate**     | Material: FR4  <br> Dimensions: 5mm x 5mm  <br> Height: 0.5 mm              |
-| **3. Die Attach**    | Material: Modified Epoxy  <br> Dimensions: 3mm x 3mm  <br> Thickness: 0.1 mm|
-| **4. Die Bond Pads** | Material: Copper  <br> Dimensions: 0.2mm x 0.2mm  <br> Thickness: 0.005 mm  |
-| **5. Substrate Bond Pads** | Material: Copper  <br> Dimensions: 0.2mm x 0.2mm  <br> Thickness: 0.005 mm |
-| **6. Bond Wire**     | Material: Gold wire  <br> Type: JEDEC 4-point                              |
-| **7. Mold Compound** | Material: Epoxy  <br> Dimensions: 5mm x 5mm  <br> Thickness: 1.2 mm         |
+| **Die**           | Material: Silicon  <br> Dimensions: 3mm x 3mm  <br> Die Height: 0.2 mm      |
+| **Substrate**     | Material: FR4  <br> Dimensions: 5mm x 5mm  <br> Height: 0.5 mm              |
+| **Die Attach**    | Material: Modified Epoxy  <br> Dimensions: 3mm x 3mm  <br> Thickness: 0.1 mm|
+| **Die Bond Pads** | Material: Copper  <br> Dimensions: 0.2mm x 0.2mm  <br> Thickness: 0.005 mm  |
+| **Substrate Bond Pads** | Material: Copper  <br> Dimensions: 0.2mm x 0.2mm  <br> Thickness: 0.005 mm |
+| **Bond Wire**     | Material: Gold wire  <br> Type: JEDEC 4-point                              |
+| **Mold Compound** | Material: Epoxy  <br> Dimensions: 5mm x 5mm  <br> Thickness: 1.2 mm         |
+
+#### Step 1 : Launch Q3D
+![Screenshot (3057)](https://github.com/user-attachments/assets/df8413dd-ac23-4d1f-a6fc-89523c871a12)
+
+#### Step 2 : Creating the Die and Substrate
+**Create the Die Geometry**
+- Use the Rectangle tool from the ribbon or navigate through Menus ```Draw → Rectangle``` to draw a rectangle.
+- Next, double-click on CreateRectangle Model → Rectangle1 to open its Properties dialog box.
+- Set one corner at the origin (0, 0, 0) and define the dimensions as 3 mm × 3 mm.
+- Then, select ```Model → Rectangle1``` and go to ```Modeler → Surface → Thicken Sheet...``` from the menu bar.
+- Set the thickness to 200 microns (0.2 mm).
+
+**Assign Material Properties**
+- Open the Properties dialog box by double-clicking on ```Model → Rectangle1```
+- Rename the geometry to Die and select Silicon as the material from the Material Library.
+
+#### Die Geometry
+![Screenshot (3063)](https://github.com/user-attachments/assets/2a00f482-8f9f-4604-bd82-e8bf31aa310f)
+#### Die Material
+![Screenshot (3062)](https://github.com/user-attachments/assets/3648013c-eba9-4052-aef6-220dacfda0ac)
+
+- Similary Design the Substrate below the die
+
+#### Step 3 : Die Attach Material and Bond Pads
+
+- Draw a rectangle with the same dimensions as the die (3 mm × 3 mm) and position it at the same coordinates (0, 0, 0).
+- Set its thickness to -100 microns (-0.1 mm), since the DAM layer is located beneath both the die and the substrate.
+- Assign "Modified Epoxy" as the material.
+- **Note:** Use distinct colors or shades for adjacent components to ensure clear differentiation in the 3D view.
+
+![Screenshot (3070)](https://github.com/user-attachments/assets/b5479947-f3d5-4d5c-ba89-06a195235fd1)
+
+#### Step 4 : Creating Bond pads 
+- Draw 2 Bond pad on Die and Substarte 
+- Draw a small rectangle and set its dimensions to match that of the die pad (0.2 mm × 0.2 mm).
+- Position the first die pad at coordinates (0.2, 0.2, 0.2) so that it rests on top of the die and aligns with one of its edges.
+- Set the thickness to 5 microns (0.005 mm).
+- Similarly, create a small rectangle and set its dimensions to match the substrate bond pad size (0.2 mm × 0.2 mm).
+- Position this substrate bond pad at coordinates (0.2, -0.7, -0.1), ensuring it is aligned with the previously created die bond pad and placed on top of the substrate.
+- Set its thickness to 10 microns (0.010 mm).
+
+![Screenshot (3075)](https://github.com/user-attachments/assets/b8856988-6514-4019-b6ba-f5a2fc7b5ec0)
+
+#### Step 5 : Wire Bond Creation and Material Assignment
+- Create bond wires using the Bondwire tool located under: ```Draw → Bondwire```.
+- Connect the center of the die bond pad to the center of the substrate bond pad. For easier placement, switch to the Top view orientation.
+- Set the bond wire type to JEDEC 4-point and assign Gold as the material.
+![Screenshot (3079)](https://github.com/user-attachments/assets/b4f97b2a-dc79-42ea-b282-62eea1682eb2)
+
+- Similary Crete all over the Die to get QFN(Quad Flat No-lead) Design
+![Screenshot (3080)](https://github.com/user-attachments/assets/da613b54-e215-4463-9d51-da8df76e9d19)
+![Screenshot (3082)](https://github.com/user-attachments/assets/1839a3ee-eb5d-48ad-89eb-ff63eefd5d79)
+
+#### Step 6 : Applying the Mold Compound and Finalizing the Package Model
+- Create a rectangular enclosure with dimensions 5 mm × 5 mm and a thickness of 1.2 mm to encapsulate the die and bond wires.
+- Position it at coordinates (-1, -1, -0.1) so that it sits above the substrate, fully covering the top side.
+- The 1.2 mm thickness ensures complete coverage of the die and bond wires while providing sufficient clearance for laser marking or other post-packaging processes.
+![Screenshot (3095)](https://github.com/user-attachments/assets/a5b5ccd9-fa2e-4ebd-86c9-3b83d5985512)
+
+
+### Final QFN Design
+---
+![Untitled4](https://github.com/user-attachments/assets/90e75398-648a-4cf8-937a-1c5f89770fa3)
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Appendix
 ---
