@@ -331,6 +331,16 @@ Here we will primarily focuses on constructing the full cross-section of a wire 
 ![image](https://github.com/user-attachments/assets/c543ce72-77de-44d3-ba4d-55eb4a646677)
 
 ### Lab2 Designing QFN
+---
+| Component            | Properties                                                                 |
+|----------------------|----------------------------------------------------------------------------|
+| **1. Die**           | Material: Silicon  <br> Dimensions: 3mm x 3mm  <br> Die Height: 0.2 mm      |
+| **2. Substrate**     | Material: FR4  <br> Dimensions: 5mm x 5mm  <br> Height: 0.5 mm              |
+| **3. Die Attach**    | Material: Modified Epoxy  <br> Dimensions: 3mm x 3mm  <br> Thickness: 0.1 mm|
+| **4. Die Bond Pads** | Material: Copper  <br> Dimensions: 0.2mm x 0.2mm  <br> Thickness: 0.005 mm  |
+| **5. Substrate Bond Pads** | Material: Copper  <br> Dimensions: 0.2mm x 0.2mm  <br> Thickness: 0.005 mm |
+| **6. Bond Wire**     | Material: Gold wire  <br> Type: JEDEC 4-point                              |
+| **7. Mold Compound** | Material: Epoxy  <br> Dimensions: 5mm x 5mm  <br> Thickness: 1.2 mm         |
 
 ## Appendix
 ---
