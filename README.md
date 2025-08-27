@@ -432,7 +432,9 @@ Finally, I would like to express my sincere gratitude to [Kunal Ghosh](https://w
 
 ## Accreditation
 ---
-- To be added.....!
+- [Link](https://1drv.ms/f/c/e0e9b5eef85b162e/Ei1RG3WhLgBMpRo0_iqU5KYBe2AerfXvNqLeyZcJ4CRQnQ?e=jYcIcO)
+<img width="974" height="686" alt="image" src="https://github.com/user-attachments/assets/298e9af9-ae72-46e3-a1ba-19fc48f7e58f" />
+
 ## Inquiries
 ---
 - Connect with me at [LinkedIn](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile)
